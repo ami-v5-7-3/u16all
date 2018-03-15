@@ -3,7 +3,7 @@ language: python
 services:
   - cassandra 
   - couchdb 
- # - elasticsearch 
+  - elasticsearch 
   - memcached 
   - mongodb 
   - mysql 
