@@ -3,7 +3,7 @@ language: python
 services:
   - cassandra 
   - couchdb 
-  - elasticsearch 
+ # - elasticsearch 
   - memcached 
   - mongodb 
   - mysql 
@@ -43,4 +43,3 @@ build:
     - which mysql
     - mysql -V #|| true
     - which sqlite3 #|| true
-    
